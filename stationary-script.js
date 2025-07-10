@@ -2,46 +2,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const products = [
         {
             id: 1,
-            name: 'Stylish Watch',
-            description: 'A classic and elegant watch suitable for all occasions.',
-            price: '₹1,500',
-            image: src="pic1.png"
-        },
+            name: 'Spiral Notebook 300 Pages',
+            description: '300 pages Spiral Notebook with a durable cover and high-quality paper. Perfect for students and professionals alike.',
+            price: '₹ 110',
+            image: '300PageNotebook.jpg'
+        }, 
         {
             id: 2,
-            name: 'Wireless Headphones',
-            description: 'Experience immersive sound with these comfortable headphones.',
-            price: '₹2,999',
-            image: src="pic1.png"
-        },
-        {
-            id: 3,
-            name: 'Smart Fitness Tracker',
-            description: 'Track your steps, heart rate, and sleep with precision.',
-            price: '₹999',
-            image: src="pic1.png"
-        },
-        {
-            id: 4,
-            name: 'Portable Bluetooth Speaker',
-            description: 'Powerful sound in a compact and durable design.',
-            price: '₹1,250',
-            image: src="pic1.png"
-        },
-        {
-            id: 5,
-            name: 'Designer Sunglasses',
-            description: 'Protect your eyes with style and clarity.',
-            price: '₹750',
-            image: src="pic1.png"
-        },
-        {
-            id: 6,
-            name: 'ATOMIC HABIT',
-            description: 'BEST BOOK FOR SELF IMPROVEMENT',
-            price: '₹200',
-            image: src="pic1.png"
+            name: 'Assignment Notebook "96 Pages"',
+            description: '96 pages Assignment Notebook with a sturdy cover and smooth paper. Ideal for organizing your assignments and notes.',
+            price: '₹ 30',
+            image: 'NoteBookAS.jpg'
         }
+        
     ];
 
     const productListDiv = document.getElementById('product-list');
@@ -137,8 +110,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${product.description}</p>
             <p class="price">${product.price}</p>
             <div class="product-buttons">
-                <a href="https://wa.me/+917828706954?text=I'm%20interested%20in%20the%20${encodeURIComponent(product.name)}%20(ID:%20${product.id})" class="btn btn-whatsapp" target="_blank">WhatsApp Us</a>
-                <a href="product-detailStationary.html?id=${product.id}" class="btn btn-sell">Sell This</a>
+                <a href="https://wa.me/+916262686352?text=I'm%20interested%20in%20the%20${encodeURIComponent(product.name)}%20(ID:%20${product.id})" class="btn btn-whatsapp" target="_blank">WhatsApp Us</a>
+                <a href="product-detailStationary.html?id=${product.id}" class="btn btn-sell"> Buy Now</a>
             </div>
         `;
         productListDiv.appendChild(productCard);

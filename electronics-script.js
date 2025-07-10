@@ -1,40 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const products = [
         {
-            id: 1,
-            name: 'Stylish Watch',
-            description: 'A classic and elegant watch suitable for all occasions.',
-            price: '₹1,500',
-            image: src="pic1.png"
-        },
-        {
-            id: 2,
-            name: 'Wireless Headphones',
-            description: 'Experience immersive sound with these comfortable headphones.',
-            price: '₹2,999',
-            image: src="pic1.png"
-        },
-        {
-            id: 3,
-            name: 'Smart Fitness Tracker',
-            description: 'Track your steps, heart rate, and sleep with precision.',
-            price: '₹999',
-            image: src="pic1.png"
-        },
-        {
-            id: 4,
-            name: 'Portable Bluetooth Speaker',
-            description: 'Powerful sound in a compact and durable design.',
-            price: '₹1,250',
-            image: src="pic1.png"
-        },
-        {
-            id: 5,
-            name: 'Designer Sunglasses',
-            description: 'Protect your eyes with style and clarity.',
-            price: '₹750',
-            image: src="pic1.png"
-        }
+                     id: 1,
+                    name: 'Hand Free',
+                    description: 'High-quality hand-free with noise isolation and clear sound. Perfect for calls and music on the go. Ergonomic design for comfort during long use.',
+                    price: '₹ 50 ',
+                    image: 'HandFree.png' // Placeholder image
+                }
     ];
 
     const productListDiv = document.getElementById('product-list');
@@ -130,8 +102,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <p>${product.description}</p>
             <p class="price">${product.price}</p>
             <div class="product-buttons">
-                <a href="https://wa.me/+917828706954?text=I'm%20interested%20in%20the%20${encodeURIComponent(product.name)}%20(ID:%20${product.id})" class="btn btn-whatsapp" target="_blank">WhatsApp Us</a>
-                <a href="product-detailElectronics.html?id=${product.id}" class="btn btn-sell">Sell This</a>
+                <a href="https://wa.me/+916262686352?text=I'm%20interested%20in%20the%20${encodeURIComponent(product.name)}%20(ID:%20${product.id})" class="btn btn-whatsapp" target="_blank">WhatsApp Us</a>
+                <a href="product-detailElectronics.html?id=${product.id}" class="btn btn-sell"> Buy Now </a>
             </div>
         `;
         productListDiv.appendChild(productCard);
