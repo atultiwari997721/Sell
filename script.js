@@ -27,6 +27,13 @@ document.addEventListener('DOMContentLoaded', () => {
                     description: 'Study Table with a sleek design, perfect for home or office use. Made from high-quality wood with a smooth finish. Ample space for books and a laptop.',
                     price: '₹ 499',
                     image: sec='S-martLogo.jpg' // Warm brown/white theme
+        },
+        {
+         id: 5,
+                    name: 'Spiral Notebook 200 Pages',
+                    description: '200 pages Spiral Notebook with a durable cover and high-quality paper. Perfect for students and professionals alike.',
+                    price: '₹ 80',
+                    image: 'SpiralNotebook200.jpg'
         }
     ];
 

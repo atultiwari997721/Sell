@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             image: 'NoteBookAS.jpg'
         },
         {
-            id: 3,
+            id: 5,
             name: 'Spiral Notebook 200 Pages',
             description: '200 pages Spiral Notebook with a durable cover and high-quality paper. Perfect for students and professionals alike.',
             price: '₹ 80',
